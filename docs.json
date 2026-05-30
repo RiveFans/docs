@@ -9,23 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      "test-page"
-    ],
     "global": {
       "anchors": [
         {
@@ -39,7 +22,15 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "languages": [
+      {
+        "language": "cn",
+        "pages": [
+          "test-page"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
